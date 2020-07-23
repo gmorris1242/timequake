@@ -100,7 +100,7 @@ $btn-mini-padding: 8px !default;
   }
 
   &.mini {
-    min-width: $btn-min-width;
-    padding: $btn-min-padding;
+    min-width: $btn-mini-min-width;
+    padding: $btn-mini-padding;
   }
 }
