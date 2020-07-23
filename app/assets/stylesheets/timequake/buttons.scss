@@ -86,17 +86,26 @@ $btn-mini-padding: 8px !default;
 
   &.info {
     background-color: $info-color;
+    border-color: $info-color;
     &:hover { background-color: lighten($info-color, 5%); }
   }
 
   &.success {
     background-color: $success-color;
+    border-color: $success-color;
     &:hover { background-color: lighten($success-color, 5%); }
   }
 
   &.danger {
     background-color: $danger-color;
+    border-color: $danger-color;
     &:hover { background-color: lighten($danger-color, 5%); }
+  }
+
+  &.warning {
+    background-color: $warning-color;
+    border-color: $warning-color;
+    &:hover { background-color: lighten($warning-color, 5%); }
   }
 
   &.mini {
