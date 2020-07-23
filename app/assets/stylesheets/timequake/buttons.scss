@@ -84,7 +84,7 @@ $btn-min-padding: 8px !default;
     }
   }
 
-  &.edit {
+  &.info {
     background-color: $info-color;
     &:hover { background-color: lighten($info-color, 5%); }
   }
@@ -97,11 +97,6 @@ $btn-min-padding: 8px !default;
   &.danger {
     background-color: $danger-color;
     &:hover { background-color: lighten($danger-color, 5%); }
-  }
-
-  &.secondary {
-    background-color: $secondary-color;
-    &:hover { background-color: lighten($secondary-color, 5%); }
   }
 
   &.mini {
