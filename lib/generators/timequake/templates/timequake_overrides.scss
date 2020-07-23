@@ -36,12 +36,12 @@ $heading-font: sans-serif;
 
 $body-font-size: 16px;
 $copy-font-size: 16px;
-$heading-1-font-size: 2rem !default;
-$heading-2-font-size: 1.5rem !default;
-$heading-3-font-size: 1.17rem !default;
-$heading-4-font-size: 1.12rem !default;
-$heading-5-font-size: .83rem !default;
-$heading-6-font-size: .75rem !default;
+$heading-1-font-size: 2rem;
+$heading-2-font-size: 1.5rem;
+$heading-3-font-size: 1.17rem;
+$heading-4-font-size: 1.12rem;
+$heading-5-font-size: .83rem;
+$heading-6-font-size: .75rem;
 
 // BUTTONS
 $btn-min-width: 145px;
@@ -94,7 +94,7 @@ $modal-close-transform: rotate(45deg);
 $table-border: none;
 $border-collapse: collapse;
 $tr-border: 1px solid $light-gray;
-$td-border: none !default;
+$td-border: none;
 $tr-bg: $light-gray;
 $td-padding: 5px;
 $table-font: $copy-font;
@@ -102,6 +102,7 @@ $table-font-size: $copy-font-size;
 
 //UNIVERSAL
 $main-overflow: hidden;
-$section-padding: 2rem 0;
+$section-padding-desktop: 2rem 0;
+$section-padding-mobile: 1rem 0;
 
 @import 'timequake/index';

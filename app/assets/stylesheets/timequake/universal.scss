@@ -1,8 +1,16 @@
 $main-overflow: hidden !default;
-$section-padding: 2rem 0 !default;
+$section-padding-desktop: 2rem 0 !default;
+$section-padding-mobile: 1rem 0 !default;
 
 main { overflow: $main-overflow; }
-section { padding: $section-padding; }
+
+section {
+  padding: $section-padding-mobile;
+
+  @include breakpoint('large') {
+    padding: $section-padding-desktop;
+  }
+}
 
 a {
   color: inherit;
