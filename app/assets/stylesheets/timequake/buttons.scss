@@ -14,6 +14,8 @@ $secondary-btn-border-color: $secondary-color !default;
 $tertiary-btn-text-color: $white !default;
 $tertiary-btn-color: $tertiary-color !default;
 $tertiary-btn-border-color: $tertiary-color !default;
+$btn-min-width: 70px !default;
+$btn-min-padding: 8px !default;
 
 .btn {
   display: inline-block;
@@ -80,5 +82,30 @@ $tertiary-btn-border-color: $tertiary-color !default;
         color: $tertiary-btn-text-color;
       }
     }
+  }
+
+  &.edit {
+    background-color: $info-color;
+    &:hover { background-color: lighten($info-color, 5%); }
+  }
+
+  &.success {
+    background-color: $success-color;
+    &:hover { background-color: lighten($success-color, 5%); }
+  }
+
+  &.danger {
+    background-color: $danger-color;
+    &:hover { background-color: lighten($danger-color, 5%); }
+  }
+
+  &.secondary {
+    background-color: $secondary-color;
+    &:hover { background-color: lighten($secondary-color, 5%); }
+  }
+
+  &.mini {
+    min-width: $btn-min-width;
+    padding: $btn-min-padding;
   }
 }

@@ -24,6 +24,10 @@ $primary-color: $red;
 $secondary-color: $yellow;
 $tertiary-color: $blue;
 $copy-color: #333;
+$success-color: #2FAC58;
+$info-color: #25327C;
+$danger-color: #E83D48;
+$warning-color: #EAC435;
 
 // TYPOGRAPHY
 $body-font: serif;
@@ -56,6 +60,8 @@ $secondary-btn-border-color: $secondary-color;
 $tertiary-btn-text-color: $white;
 $tertiary-btn-color: $tertiary-color;
 $tertiary-btn-border-color: $tertiary-color;
+$btn-min-width: 70px;
+$btn-min-padding: 8px;
 
 // FORMS
 $input-border: none;
