@@ -1,0 +1,42 @@
+$body-font: serif !default;
+$copy-font: serif !default;
+$heading-font: sans-serif !default;
+$body-font-size: 16px !default;
+$copy-font-size: 1rem !default;
+$heading-1-font-size: 2rem !default;
+$heading-2-font-size: 1.5rem !default;
+$heading-3-font-size: 1.17rem !default;
+$heading-4-font-size: 1.12rem !default;
+$heading-5-font-size: .83rem !default;
+$heading-6-font-size: .75rem !default;
+$btn-font: $copy-font !default;
+
+html {
+  font-family: $body-font;
+  font-size: $body-font-size;
+}
+
+.copy {
+  font-family: $copy-font;
+  color: $copy-color;
+  margin: 0 0 .5rem 0;
+  font-size: $copy-font-size;
+}
+
+.heading,
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.heading-6, {
+  font-family: $heading-font;
+  margin: 0 0 .5rem 0;
+}
+
+.heading-1 { font-size: $heading-1-font-size; }
+.heading-2 { font-size: $heading-2-font-size; }
+.heading-3 { font-size: $heading-3-font-size; }
+.heading-4 { font-size: $heading-4-font-size; }
+.heading-5 { font-size: $heading-5-font-size; }
+.heading-6 { font-size: $heading-6-font-size; }

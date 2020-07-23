@@ -1,0 +1,31 @@
+$table-border: none !default;
+$border-collapse: collapse !default;
+$tr-border: 1px solid $light-gray !default;
+$td-border: none !default;
+$tr-bg: $light-gray !default;
+$td-padding: 5px !default;
+$table-font: $copy-font !default;
+$table-font-size: $copy-font-size !default;
+
+table {
+  width: 100%;
+  border: $table-border;
+  border-collapse: $border-collapse;
+  font-family: $table-font;
+  font-size: $table-font-size;
+
+  th,
+  td {
+    text-align: left;
+    padding: $td-padding;
+    border: $td-border;
+  }
+
+  tr {
+    border: $tr-border;
+
+    &:nth-child(even) { background-color: $tr-bg; }
+  }
+}
+
+.table-responsive { overflow: scroll; }

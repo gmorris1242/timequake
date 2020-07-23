@@ -1,0 +1,22 @@
+$main-overflow: hidden !default;
+$section-padding: 2rem 0 !default;
+
+main { overflow: $main-overflow; }
+section { padding: $section-padding; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  &.no-style { list-style-type: none; }
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}

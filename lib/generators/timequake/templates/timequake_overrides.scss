@@ -1,0 +1,101 @@
+// BREAKPOINTS
+$medium: 600px;
+$large: 800px;
+$xlarge: 1200px;
+$xxlarge: 1900px;
+
+// COLORS
+// class e.g.
+// .black { color: $black !important; }
+// .black-bg { background-color: $black !important; }
+$black: #000;
+$gray: #D3D3D3;
+$light-gray: #ECECEC;
+$white: #FFF;
+$red: #E23838;
+$orange: #F78200;
+$yellow: #FFB900;
+$green: #5EBD3E;
+$blue: #009CDF;
+$indigo: #31457D;
+$violet: #973999;
+$teal: #2D9FA2;
+$primary-color: $red;
+$secondary-color: $yellow;
+$tertiary-color: $blue;
+$copy-color: #333;
+
+// TYPOGRAPHY
+$body-font: serif;
+$copy-font: serif;
+$heading-font: sans-serif;
+
+$body-font-size: 16px;
+$copy-font-size: 16px;
+$heading-1-font-size: 2rem !default;
+$heading-2-font-size: 1.5rem !default;
+$heading-3-font-size: 1.17rem !default;
+$heading-4-font-size: 1.12rem !default;
+$heading-5-font-size: .83rem !default;
+$heading-6-font-size: .75rem !default;
+
+// BUTTONS
+$btn-min-width: 145px;
+$btn-border-style: solid;
+$btn-border-radius: 5px;
+$btn-border-width: 1px;
+$btn-padding: 11px 5px;
+$btn-font-size: 16px;
+$btn-font: $copy-font;
+$btn-color: $primary-color;
+$btn-border-color: $primary-color;
+$btn-text-color: $white;
+$secondary-btn-text-color: $white;
+$secondary-btn-color: $secondary-color;
+$secondary-btn-border-color: $secondary-color;
+$tertiary-btn-text-color: $white;
+$tertiary-btn-color: $tertiary-color;
+$tertiary-btn-border-color: $tertiary-color;
+
+// FORMS
+$input-border: none;
+$input-border-radius: 0;
+$input-bg: $light-gray;
+$input-padding: 8px;
+$input-margin-bottom: 16px;
+$input-height: 38px;
+$text-area-min-height: 200px;
+$label-margin-bottom: 8px;
+$form-font: $copy-font;
+$label-font: $form-font;
+$input-font-size: $copy-font-size;
+$label-font-size: $copy-font-size;
+$file-font-size: 14px;
+
+// MODALS
+$modal-bg-color: $white;
+$modal-max-width: 1200px;
+$modal-content-padding: 20px;
+$modal-border-radius: 5px;
+$modal-border-color: $white;
+$modal-border-width: 5px;
+$modal-border-style: solid;
+$modal-close-size: 30px;
+$modal-close-color: $copy-color;
+$modal-close-transform: rotate(45deg);
+
+// TABLES
+$table-border: none;
+$border-collapse: collapse;
+$tr-border: 1px solid $light-gray;
+$td-border: none !default;
+$tr-bg: $light-gray;
+$td-padding: 5px;
+$table-font: $copy-font;
+$table-font-size: $copy-font-size;
+
+//UNIVERSAL
+$main-overflow: hidden;
+$section-padding: 2rem 0;
+
+@import 'timequake/index';

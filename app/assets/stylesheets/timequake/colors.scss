@@ -1,0 +1,54 @@
+$black: #000 !default;
+$gray: #D3D3D3 !default;
+$light-gray: #ECECEC !default;
+$white: #FFF !default;
+$red: #E23838 !default;
+$orange: #F78200 !default;
+$yellow: #FFB900 !default;
+$green: #5EBD3E !default;
+$blue: #009CDF !default;
+$indigo: #31457D !default;
+$violet: #973999 !default;
+$teal: #2D9FA2 !default;
+
+$copy-color: #333 !default;
+$primary-color: $red !default;
+$secondary-color: $yellow !default;
+$tertiary-color: $blue !default;
+
+.black { color: $black !important; }
+.gray { color: $gray !important; }
+.light-gray { color: $light-gray !important; }
+.grey { color: $gray !important; }
+.light-grey { color: $light-gray !important; }
+.white { color: $white !important; }
+.red { color: $red !important; }
+.orange { color: $orange !important; }
+.yellow { color: $yellow !important; }
+.green { color: $green !important; }
+.blue { color: $blue !important; }
+.indigo { color: $indigo !important; }
+.violet { color: $violet !important; }
+.teal { color: $teal !important; }
+.copy-color { color: $copy-color !important; }
+.primary-color { color: $primary-color !important; }
+.secondary-color { color: $secondary-color !important; }
+.tertiary-color { color: $tertiary-color !important; }
+
+.black-bg { background-color: $black !important; }
+.gray-bg { background-color: $gray !important; }
+.light-gray-bg { background-color: $light-gray !important; }
+.grey-bg { background-color: $gray !important; }
+.light-grey-bg { background-color: $light-gray !important; }
+.white-bg { background-color: $white !important; }
+.red-bg { background-color: $red !important; }
+.orange-bg { background-color: $orange !important; }
+.yellow-bg { background-color: $yellow !important; }
+.green-bg { background-color: $green !important; }
+.blue-bg { background-color: $blue !important; }
+.indigo-bg { background-color: $indigo !important; }
+.violet-bg { background-color: $violet !important; }
+.teal-bg { background-color: $teal !important; }
+.primary-color-bg { background-color: $primary-color !important; }
+.secondary-color-bg { background-color: $secondary-color !important; }
+.tertiary-color-bg { background-color: $tertiary-color !important; }

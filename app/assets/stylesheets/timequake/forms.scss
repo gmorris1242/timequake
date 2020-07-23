@@ -1,0 +1,50 @@
+$input-border: none !default;
+$input-border-radius: 0 !default;
+$input-bg: $light-gray !default;
+$input-padding: 8px !default;
+$input-margin-bottom: 16px !default;
+$input-height: 38px !default;
+$text-area-min-height: 200px !default;
+$label-margin-bottom: 8px !default;
+$form-font: $copy-font !default;
+$label-font: $form-font !default;
+$input-font-size: $copy-font-size !default;
+$label-font-size: $copy-font-size !default;
+$file-font-size: 14px !default;
+
+form {
+  input,
+  textarea,
+  select {
+    width: 100%;
+    border: $input-border;
+    border-radius: $input-border-radius;
+    background-color: $input-bg;
+    padding: $input-padding;
+    margin-bottom: $input-margin-bottom;
+    font-family: $form-font;
+    font-size: $input-font-size;
+    height: $input-height;
+  }
+
+  textarea { min-height: $text-area-min-height; }
+
+  input[type='file'] {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    height: auto;
+    font-size: $file-font-size;
+  }
+
+  input[type='submit'] { height: auto; }
+
+  label {
+    display: inline-block;
+    margin-bottom: $label-margin-bottom;
+    font-family: $label-font;
+    font-size: $label-font-size;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+}

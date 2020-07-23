@@ -1,0 +1,84 @@
+$btn-min-width: 145px !default;
+$btn-border-style: solid !default;
+$btn-border-radius: 5px !default;
+$btn-border-width: 1px !default;
+$btn-padding: 11px 5px !default;
+$btn-font-size: 16px !default;
+$btn-font: $copy-font !default;
+$btn-color: $primary-color !default;
+$btn-border-color: $primary-color !default;
+$btn-text-color: $white !default;
+$secondary-btn-text-color: $white !default;
+$secondary-btn-color: $secondary-color !default;
+$secondary-btn-border-color: $secondary-color !default;
+$tertiary-btn-text-color: $white !default;
+$tertiary-btn-color: $tertiary-color !default;
+$tertiary-btn-border-color: $tertiary-color !default;
+
+.btn {
+  display: inline-block;
+  min-width: $btn-min-width;
+  background-color: $btn-color;
+  border-style: $btn-border-style;
+  border-width: $btn-border-width;
+  border-color: $btn-border-color;
+  border-radius: $btn-border-radius;
+  padding: $btn-padding;
+  font-family: $btn-font;
+  color: $btn-text-color;
+  width: auto;
+  margin: 10px 0;
+  text-align: center;
+  cursor: pointer;
+  transition: 300ms all;
+  font-size: $btn-font-size;
+
+  &:hover { background-color: lighten($btn-color, 5%); }
+  &:active { transform: scale(.95); }
+
+  &.clear {
+    color: $btn-color;
+    background-color: transparent;
+
+    &:hover {
+      background-color: $btn-color;
+      color: $btn-text-color;
+    }
+  }
+
+  &.secondary {
+    color: $secondary-btn-text-color;
+    background-color: $secondary-btn-color;
+    border-color: $secondary-btn-border-color;
+
+    &:hover { background-color: lighten($secondary-btn-color, 5%); }
+
+    &.clear {
+      color: $secondary-btn-color;
+      background-color: transparent;
+
+      &:hover {
+        background-color: $secondary-btn-color;
+        color: $secondary-btn-text-color;
+      }
+    }
+  }
+
+  &.tertiary {
+    color: $tertiary-btn-text-color;
+    background-color: $tertiary-btn-color;
+    border-color: $tertiary-btn-border-color;
+
+    &:hover { background-color: lighten($tertiary-btn-color, 5%); }
+
+    &.clear {
+      color: $tertiary-btn-color;
+      background-color: transparent;
+
+      &:hover {
+        background-color: $tertiary-btn-color;
+        color: $tertiary-btn-text-color;
+      }
+    }
+  }
+}
