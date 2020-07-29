@@ -1,4 +1,4 @@
 //= require jquery
 //= require_tree .
 
-console.log('ODYSSEY JS CONNECTED')
+function timequakeJS() { console.log('TIMEQUAKE JS CONNECTED') };
