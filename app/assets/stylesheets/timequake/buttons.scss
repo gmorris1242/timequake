@@ -48,7 +48,7 @@ $btn-mini-padding: 8px !default;
     }
   }
 
-  &.secondary {
+  &.btn-secondary {
     color: $secondary-btn-text-color;
     background-color: $secondary-btn-color;
     border-color: $secondary-btn-border-color;
@@ -66,7 +66,7 @@ $btn-mini-padding: 8px !default;
     }
   }
 
-  &.tertiary {
+  &.btn-tertiary {
     color: $tertiary-btn-text-color;
     background-color: $tertiary-btn-color;
     border-color: $tertiary-btn-border-color;
@@ -84,31 +84,31 @@ $btn-mini-padding: 8px !default;
     }
   }
 
-  &.info {
+  &.btn-info {
     background-color: $info-color;
     border-color: $info-color;
     &:hover { background-color: lighten($info-color, 5%); }
   }
 
-  &.success {
+  &.btn-success {
     background-color: $success-color;
     border-color: $success-color;
     &:hover { background-color: lighten($success-color, 5%); }
   }
 
-  &.danger {
+  &.btn-danger {
     background-color: $danger-color;
     border-color: $danger-color;
     &:hover { background-color: lighten($danger-color, 5%); }
   }
 
-  &.warning {
+  &.btn-warning {
     background-color: $warning-color;
     border-color: $warning-color;
     &:hover { background-color: lighten($warning-color, 5%); }
   }
 
-  &.mini {
+  &.btn-mini {
     min-width: $btn-mini-min-width;
     padding: $btn-mini-padding;
   }
