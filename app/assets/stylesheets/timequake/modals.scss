@@ -2,9 +2,7 @@ $modal-bg-color: $white !default;
 $modal-max-width: 1200px !default;
 $modal-content-padding: 20px !default;
 $modal-border-radius: 5px !default;
-$modal-border-color: $white !default;
-$modal-border-width: 5px !default;
-$modal-border-style: solid !default;
+$modal-border: 5px solid $white !default;
 $modal-close-size: 30px !default;
 $modal-close-color: $copy-color !default;
 $modal-close-transform: rotate(45deg) !default;
@@ -19,7 +17,7 @@ $modal-close-transform: rotate(45deg) !default;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 0;
+  z-index: -1;
   opacity: 0;
   transition: 500ms all;
 
@@ -39,9 +37,7 @@ $modal-close-transform: rotate(45deg) !default;
     background: $modal-bg-color;
     border-radius: $modal-border-radius;
     padding: $modal-content-padding;
-    border-width: $modal-border-width;
-    border-style: $modal-border-style;
-    border-color: $modal-border-color;
+    border: $modal-border;
     max-width: $modal-max-width;
 
     .modal-close {

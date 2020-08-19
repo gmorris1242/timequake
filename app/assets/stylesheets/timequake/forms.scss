@@ -13,6 +13,8 @@ $label-font-size: $copy-font-size !default;
 $file-font-size: 14px !default;
 $checkbox-width: 16px !default;
 $checkbox-margin-bottom: 8px !default;
+$radio-width: 13px !default;
+$radio-margin-bottom: 8px !default;
 
 form {
   input,
@@ -44,6 +46,11 @@ form {
   input[type='checkbox'] {
     width: $checkbox-width;
     margin-bottom: $checkbox-margin-bottom;
+  }
+
+  input[type='radio'] {
+    width: $radio-width;
+    margin-bottom: $radio-margin-bottom;
   }
 
   label {

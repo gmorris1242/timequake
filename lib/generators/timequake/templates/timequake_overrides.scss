@@ -42,6 +42,8 @@ $heading-3-font-size: 1.17rem;
 $heading-4-font-size: 1.12rem;
 $heading-5-font-size: .83rem;
 $heading-6-font-size: .75rem;
+$heading-margin: 0 0 .5rem 0;
+$copy-margin: 0 0 .5rem 0;
 
 // BUTTONS
 $btn-min-width: 145px;
@@ -79,15 +81,15 @@ $label-font-size: $copy-font-size;
 $file-font-size: 14px;
 $checkbox-width: 16px;
 $checkbox-margin-bottom: 8px;
+$radio-width: 13px;
+$radio-margin-bottom: 8px;
 
 // MODALS
 $modal-bg-color: $white;
 $modal-max-width: 1200px;
 $modal-content-padding: 20px;
 $modal-border-radius: 5px;
-$modal-border-color: $white;
-$modal-border-width: 5px;
-$modal-border-style: solid;
+$modal-border: 5px solid $white;
 $modal-close-size: 30px;
 $modal-close-color: $copy-color;
 $modal-close-transform: rotate(45deg);

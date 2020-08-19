@@ -9,6 +9,8 @@ $heading-3-font-size: 1.17rem !default;
 $heading-4-font-size: 1.12rem !default;
 $heading-5-font-size: .83rem !default;
 $heading-6-font-size: .75rem !default;
+$heading-margin: 0 0 .5rem 0 !default;
+$copy-margin: 0 0 .5rem 0 !default;
 $btn-font: $copy-font !default;
 
 html {
@@ -19,7 +21,7 @@ html {
 .copy {
   font-family: $copy-font;
   color: $copy-color;
-  margin: 0 0 .5rem 0;
+  margin: $copy-margin;
   font-size: $copy-font-size;
 }
 
@@ -31,7 +33,7 @@ html {
 .heading-5,
 .heading-6, {
   font-family: $heading-font;
-  margin: 0 0 .5rem 0;
+  margin: $heading-margin;
 }
 
 .heading-1 { font-size: $heading-1-font-size; }
