@@ -50,6 +50,7 @@ form {
 
   input[type='radio'] {
     width: $radio-width;
+    height: auto;
     margin-bottom: $radio-margin-bottom;
   }
 
