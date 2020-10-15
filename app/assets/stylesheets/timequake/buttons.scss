@@ -4,6 +4,7 @@ $btn-border-radius: 5px !default;
 $btn-border-width: 1px !default;
 $btn-padding: 11px 5px !default;
 $btn-font-size: 16px !default;
+$btn-font-weight: 700 !default;
 $btn-font: $copy-font !default;
 $btn-color: $primary-color !default;
 $btn-border-color: $primary-color !default;
@@ -34,9 +35,10 @@ $btn-mini-padding: 8px !default;
   cursor: pointer;
   transition: 300ms all;
   font-size: $btn-font-size;
+  font-weight: $btn-font-weight;
 
   &:hover { background-color: lighten($btn-color, 5%); }
-  &:active { transform: scale(.95); }
+  &:active { transform: scale(.97); }
 
   &.clear {
     color: $btn-color;

@@ -1,3 +1,15 @@
+//FONTS add fonts here
+// e.g.
+// @font-face {
+//   font-family: 'Butler Black';
+//   src: font-url('butler_black.otf')
+// }
+//
+// @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;900&display=swap');
+//
+// $butler_black: 'Butler Black', serif;
+// $raleway: 'Raleway', sans-serif;
+
 // BREAKPOINTS
 $medium: 600px;
 $large: 800px;
@@ -23,6 +35,7 @@ $teal: #2D9FA2;
 $primary-color: $red;
 $secondary-color: $yellow;
 $tertiary-color: $blue;
+$heading-color: #333;
 $copy-color: #333;
 $success-color: #2FAC58;
 $info-color: #25327C;
@@ -52,6 +65,7 @@ $btn-border-radius: 5px;
 $btn-border-width: 1px;
 $btn-padding: 11px 5px;
 $btn-font-size: 16px;
+$btn-font-weight: 700;
 $btn-font: $copy-font;
 $btn-color: $primary-color;
 $btn-border-color: $primary-color;
@@ -110,3 +124,60 @@ $section-padding-desktop: 2rem 0;
 $section-padding-mobile: 1rem 0;
 
 @import 'timequake/index';
+
+// HAMBURGERS
+$hamburger-padding-x           : 15px;
+$hamburger-padding-y           : 15px;
+$hamburger-layer-width         : 40px;
+$hamburger-layer-height        : 4px;
+$hamburger-layer-spacing       : 6px;
+$hamburger-layer-color         : #789798;
+$hamburger-layer-border-radius : 4px;
+$hamburger-hover-opacity       : 0.7;
+$hamburger-active-layer-color  : $hamburger-layer-color;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity;
+
+// To use CSS filters as the hover effect instead of opacity,
+// set $hamburger-hover-use-filter as true and
+// change the value of $hamburger-hover-filter accordingly.
+$hamburger-hover-use-filter   : false;
+$hamburger-hover-filter       : opacity(0%);
+$hamburger-active-hover-filter: $hamburger-hover-filter;
+
+// Remove or comment out the hamburger types you don’t want
+// or need, so they get excluded from the compiled CSS.
+$hamburger-types: (
+  3dx,
+  3dx-r,
+  3dy,
+  3dy-r,
+  3dxy,
+  3dxy-r,
+  arrow,
+  arrow-r,
+  arrowalt,
+  arrowalt-r,
+  arrowturn,
+  arrowturn-r,
+  boring,
+  collapse,
+  collapse-r,
+  elastic,
+  elastic-r,
+  emphatic,
+  emphatic-r,
+  minus,
+  slider,
+  slider-r,
+  spring,
+  spring-r,
+  stand,
+  stand-r,
+  spin,
+  spin-r,
+  squeeze,
+  vortex,
+  vortex-r
+);
+
+@import "hamburgers/hamburgers"

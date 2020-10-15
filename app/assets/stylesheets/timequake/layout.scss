@@ -1,0 +1,51 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.column {
+  width: 100%;
+  padding: 0 10px;
+
+  &.no-gutters { padding: 0; }
+}
+
+@for $i from 1 through 12 {
+  .sm-#{$i} { width: 100% / 12 * $i; }
+  .sm-offset-#{$i} { margin-left: 100% / 12 * $i; }
+  .sm-order-#{$i} { order: $i; }
+}
+
+@media (min-width: $medium) {
+  @for $i from 1 through 12 {
+    .md-#{$i} { width: 100% / 12 * $i; }
+    .md-offset-#{$i} { margin-left: 100% / 12 * $i; }
+    .md-order-#{$i} { order: $i; }
+  }
+}
+
+@media (min-width: $large) {
+  @for $i from 1 through 12 {
+    .lg-#{$i} { width: 100% / 12 * $i; }
+    .lg-offset-#{$i} { margin-left: 100% / 12 * $i; }
+    .lg-order-#{$i} { order: $i; }
+  }
+}
+
+@media (min-width: $xlarge) {
+  @for $i from 1 through 12 {
+    .xlg-#{$i} { width: 100% / 12 * $i; }
+    .xlg-offset-#{$i} { margin-left: 100% / 12 * $i; }
+    .xlg-order-#{$i} { order: $i; }
+  }
+}
+
+@media (min-width: $xxlarge) {
+  @for $i from 1 through 12 {
+    .xxlg-#{$i} { width: 100% / 12 * $i; }
+    .xxlg-offset-#{$i} { margin-left: 100% / 12 * $i; }
+    .xxlg-order-#{$i} { order: $i; }
+  }
+}
