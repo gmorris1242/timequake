@@ -62,4 +62,21 @@ form {
     font-weight: bold;
     text-transform: capitalize;
   }
+
+  .radio-btn {
+    display: flex;
+    align-items: center;
+
+    label { font-weight: normal; }
+
+    input {
+      margin-right: 5px;
+    }
+  }
+
+  .radio-btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
