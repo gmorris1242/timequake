@@ -1,6 +1,7 @@
 $main-overflow: hidden !default;
 $section-padding-desktop: 2rem 0 !default;
 $section-padding-mobile: 1rem 0 !default;
+$link-hover-color: $primary-color !default;
 
 * {
   box-sizing: border-box;
@@ -22,6 +23,8 @@ a {
   color: inherit;
   text-decoration: none;
   transition: 300ms;
+
+  &.link:hover { color: $link-hover-color; }
 }
 
 ul,
