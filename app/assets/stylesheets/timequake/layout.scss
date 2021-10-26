@@ -7,6 +7,8 @@ $desktop-gutter: 0 10px !default;
   flex-wrap: wrap;
   max-width: $row-width;
   margin: 0 auto;
+
+  &.full-width { max-width: none; }
 }
 
 .column {

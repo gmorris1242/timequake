@@ -44,8 +44,8 @@ html {
 .heading-5 { font-size: $heading-5-font-size; }
 .heading-6 { font-size: $heading-6-font-size; }
 
-@for $i from 1 through 100 {
-  .fz-#{$i} { font-size: #{$i}px; }
+@for $i from 1 through 200 {
+  .fz-#{$i} { font-size: #{$i}px !important; }
 }
 
 .fw-100 { font-weight: 100 !important; }
