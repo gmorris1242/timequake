@@ -2,6 +2,8 @@ $main-overflow: hidden !default;
 $section-padding-desktop: 2rem 0 !default;
 $section-padding-mobile: 1rem 0 !default;
 $link-hover-color: $primary-color !default;
+$mobile-list-padding: 10px !default;
+$desktop-list-padding: 10px !default;
 
 * {
   box-sizing: border-box;
@@ -29,6 +31,10 @@ a {
 
 ul,
 ol {
+  padding-left: $mobile-list-padding;
+
+  @media (min-width: $large) { padding-left: $desktop-list-padding; }
+
   &.no-style { list-style-type: none; }
   &.circle { list-style-type: circle; }
   &.square { list-style-type: square; }
