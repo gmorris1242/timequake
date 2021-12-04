@@ -114,4 +114,10 @@ $btn-mini-padding: 8px !default;
     min-width: $btn-mini-min-width;
     padding: $btn-mini-padding;
   }
+
+  &[disabled] {
+    background-color: $light-gray;
+    border-color: $light-gray;
+    color: $gray
+  }
 }
