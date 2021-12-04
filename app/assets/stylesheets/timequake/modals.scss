@@ -19,7 +19,7 @@ $modal-close-transform: rotate(45deg) !default;
   align-items: center;
   z-index: -1;
   opacity: 0;
-  transition: 500ms all;
+  transition: 500ms opacity;
 
   &.modal-tall {
     align-items: flex-start;
