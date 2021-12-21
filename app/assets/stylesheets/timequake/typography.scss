@@ -11,6 +11,8 @@ $heading-5-font-size: .83rem !default;
 $heading-6-font-size: .75rem !default;
 $heading-margin: 0 0 .5rem 0 !default;
 $copy-margin: 0 0 .5rem 0 !default;
+$copy-line-height: 1.2 !default;
+$heading-line-height: 1.2 !default;
 $btn-font: $copy-font !default;
 
 html {
@@ -24,6 +26,7 @@ html {
   color: $copy-color;
   margin: $copy-margin;
   font-size: $copy-font-size;
+  line-height: $copy-line-height;
 }
 
 .heading,
@@ -35,6 +38,7 @@ html {
 .heading-6, {
   font-family: $heading-font;
   margin: $heading-margin;
+  line-height: $heading-line-height;
 }
 
 .heading-1 { font-size: $heading-1-font-size; }
@@ -46,6 +50,22 @@ html {
 
 @for $i from 1 through 200 {
   .fz-#{$i} { font-size: #{$i}px !important; }
+
+  @media (min-width: $medium) {
+    .md-fz-#{$i} { font-size: #{$i}px !important; }
+  }
+
+  @media (min-width: $large) {
+    .lg-fz-#{$i} { font-size: #{$i}px !important; }
+  }
+
+  @media (min-width: $xlg) {
+    .xlg-fz-#{$i} { font-size: #{$i}px !important; }
+  }
+
+  @media (min-width: $xxlg) {
+    .xxlg-fz-#{$i} { font-size: #{$i}px !important; }
+  }
 }
 
 .fw-100 { font-weight: 100 !important; }
