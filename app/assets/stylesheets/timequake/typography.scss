@@ -59,11 +59,11 @@ html {
     .lg-fz-#{$i} { font-size: #{$i}px !important; }
   }
 
-  @media (min-width: $xlg) {
+  @media (min-width: $xlarge) {
     .xlg-fz-#{$i} { font-size: #{$i}px !important; }
   }
 
-  @media (min-width: $xxlg) {
+  @media (min-width: $xxlarge) {
     .xxlg-fz-#{$i} { font-size: #{$i}px !important; }
   }
 }
