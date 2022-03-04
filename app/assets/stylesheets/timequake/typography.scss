@@ -13,6 +13,8 @@ $heading-margin: 0 0 .5rem 0 !default;
 $copy-margin: 0 0 .5rem 0 !default;
 $copy-line-height: 1.2 !default;
 $heading-line-height: 1.2 !default;
+$copy-font-weight: normal !default;
+$heading-font-weight: bold !default;
 $btn-font: $copy-font !default;
 
 html {
@@ -27,6 +29,7 @@ html {
   margin: $copy-margin;
   font-size: $copy-font-size;
   line-height: $copy-line-height;
+  font-weight: $copy-font-weight;
 }
 
 .heading,
@@ -39,6 +42,7 @@ html {
   font-family: $heading-font;
   margin: $heading-margin;
   line-height: $heading-line-height;
+  font-weight: $heading-font-weight;
 }
 
 .heading-1 { font-size: $heading-1-font-size; }
