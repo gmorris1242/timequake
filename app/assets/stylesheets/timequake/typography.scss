@@ -52,7 +52,7 @@ html {
 .heading-5 { font-size: $heading-5-font-size; }
 .heading-6 { font-size: $heading-6-font-size; }
 
-@for $i from 1 through 200 {
+@for $i from 1 through 400 {
   .fz-#{$i} { font-size: #{$i}px !important; }
 
   @media (min-width: $medium) {
