@@ -21,39 +21,39 @@ $desktop-gutter: 0 10px !default;
 }
 
 @for $i from 1 through 12 {
-  .sm-#{$i} { width: calc(100% / 12) * $i; }
-  .sm-offset-#{$i} { margin-left: calc(100% / 12) * $i; }
+  .sm-#{$i} { width: calc((100% / 12)  * $i); }
+  .sm-offset-#{$i} { margin-left: calc((100% / 12)  * $i); }
   .sm-order-#{$i} { order: $i; }
 }
 
 @media (min-width: $medium) {
   @for $i from 1 through 12 {
-    .md-#{$i} { width: calc(100% / 12) * $i; }
-    .md-offset-#{$i} { margin-left: calc(100% / 12) * $i; }
+    .md-#{$i} { width: calc((100% / 12)  * $i); }
+    .md-offset-#{$i} { margin-left: calc((100% / 12)  * $i); }
     .md-order-#{$i} { order: $i; }
   }
 }
 
 @media (min-width: $large) {
   @for $i from 1 through 12 {
-    .lg-#{$i} { width: calc(100% / 12) * $i; }
-    .lg-offset-#{$i} { margin-left: calc(100% / 12) * $i; }
+    .lg-#{$i} { width: calc((100% / 12)  * $i); }
+    .lg-offset-#{$i} { margin-left: calc((100% / 12)  * $i); }
     .lg-order-#{$i} { order: $i; }
   }
 }
 
 @media (min-width: $xlarge) {
   @for $i from 1 through 12 {
-    .xlg-#{$i} { width: calc(100% / 12) * $i; }
-    .xlg-offset-#{$i} { margin-left: calc(100% / 12) * $i; }
+    .xlg-#{$i} { width: calc((100% / 12)  * $i); }
+    .xlg-offset-#{$i} { margin-left: calc((100% / 12)  * $i); }
     .xlg-order-#{$i} { order: $i; }
   }
 }
 
 @media (min-width: $xxlarge) {
   @for $i from 1 through 12 {
-    .xxlg-#{$i} { width: calc(100% / 12) * $i; }
-    .xxlg-offset-#{$i} { margin-left: calc(100% / 12) * $i; }
+    .xxlg-#{$i} { width: calc((100% / 12)  * $i); }
+    .xxlg-offset-#{$i} { margin-left: calc((100% / 12)  * $i); }
     .xxlg-order-#{$i} { order: $i; }
   }
 }
